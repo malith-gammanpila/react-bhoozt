@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	/* background: #ecfcff !important; */
+	font-family: 'Lato', sans-serif !important;
+	overscroll-behavior: none;
+	/* touch-action: none; */
+	/* -webkit-tap-highlight-color: transparent; */
+}
+
+@font-face {
+	font-family: 'Calibri-Bold';
+	font-style: normal;
+	src: url('./assets/fonts/Calibri-bold.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Calibri';
+	font-style: normal;
+	src: url('./assets/fonts/Calibri.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Romy';
+	font-style: normal;
+	src: url('./assets/fonts/Romy.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'TwCentMTStd-Bold';
+	font-style: normal;
+	src: url('./assets/fonts/TwCenMTStd-Bold.otf') format('otf');
+}
+
+@font-face {
+	font-family: 'TwCentMTStd';
+	font-style: normal;
+	src: url('./assets/fonts/TwCenMTStd.otf') format('otf');
+}
+
+/* Fixed page after open modal */
+body.animating.in.dimmable.fullscreenmodal,
+body.dimmed.dimmable.scrolling.fullscreenmodal {
+	height: 100vh;
+	position: fixed !important;
+}
+
+/* Remove Scrollbar */
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* .fullscreen modal border  */
+.ui.modal > :last-child {
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+.ui.modal > .icon:first-child + *,
+.ui.modal > :first-child:not(.icon) {
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+/*Center Square Modal within modal (Push Notification)*/
+/* .dimmed.dimmable > .ui.animating.dimmer,
+.dimmed.dimmable > .ui.visible.dimmer,
+.ui.active.dimmer {
+	justify-content: center !important;
+} */
+
+.ui.page.dimmer {
+	justify-content: center !important;
+}
+
+/*Fix scrolling issue of tutorial screen*/
+.scrolling.dimmable > .dimmer {
+	justify-content: flex-start !important;
+}
+
+textarea:focus {
+	outline-offset: 0em;
+}
+
+:focus {
+	outline: 0em;
+}

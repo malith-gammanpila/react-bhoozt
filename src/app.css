@@ -1,0 +1,58 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+/*Toastify snackbar customizations - start*/
+.Toastify__toast--info {
+	background-color: #dadfdf !important;
+	color: #52cbbe !important;
+}
+.Toastify__toast--success {
+	background-color: #52cbbe !important;
+}
+.Toastify__toast--error {
+	background-color: #ff5969 !important;
+}
+.Toastify__toast--warning {
+	background-color: #dadfdf !important;
+	color: white !important;
+}
+.Toastify__toast--default {
+	background-color: #1363c7 !important;
+	color: white !important;
+}
+.Toastify__toast-body {
+	text-align: center !important;
+}
+/*Toastify snackbar customizations - end*/
+
+.ReactCrop__image {
+	display: block;
+	max-width: 100%;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+div.ReactCrop > div {
+	height: 100%;
+	width: 100%;
+}

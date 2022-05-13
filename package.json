@@ -1,0 +1,70 @@
+{
+	"name": "bhoozt",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.19.0",
+		"dotenv": "^8.0.0",
+		"env-cmd": "^10.0.1",
+		"eslint-plugin-react-hooks": "^2.3.0",
+		"express": "^4.16.4",
+		"firebase": "^7.5.0",
+		"joi-browser": "^13.4.0",
+		"lodash": "^4.17.15",
+		"mixpanel-browser": "^2.39.0",
+		"moment": "^2.24.0",
+		"pure-react-carousel": "^1.23.2",
+		"react": "^16.12.0",
+		"react-cookie": "^3.1.1",
+		"react-copy-to-clipboard": "^5.0.2",
+		"react-detect-offline": "^2.4.0",
+		"react-device-detect": "^1.11.14",
+		"react-dom": "^16.11.0",
+		"react-double-marquee": "^0.3.4",
+		"react-drag-drop-container": "^6.1.1",
+		"react-facebook-login": "^4.1.1",
+		"react-google-login": "^5.0.7",
+		"react-gsap": "^1.2.0",
+		"react-image-crop": "^8.6.6",
+		"react-meta-tags": "^1.0.1",
+		"react-moment": "^0.9.6",
+		"react-qr-reader": "^2.2.1",
+		"react-rewards": "^1.1.1",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "3.2.0",
+		"react-share": "^4.0.1",
+		"react-toastify": "^5.4.0",
+		"react-truncate": "^2.4.0",
+		"semantic-ui-css": "^2.4.1",
+		"semantic-ui-react": "^0.88.2",
+		"styled-components": "^4.4.1",
+		"unstated-next": "^1.1.0"
+	},
+	"scripts": {
+		"start": "PORT=3001 react-scripts start",
+		"build": "react-scripts build",
+		"build:development": "env-cmd -f .env.development.live react-scripts build",
+		"build:staging": "env-cmd -f .env.staging react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"start-sw": "http-server ./build"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"http-server": "^0.12.0"
+	}
+}

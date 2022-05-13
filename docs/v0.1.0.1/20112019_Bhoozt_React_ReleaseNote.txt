@@ -1,0 +1,60 @@
+=======================================================
+Release Note
+=======================================================
+Project       - Bhoozt React Web App
+Date          - November 20 2019
+Language	  - ReactJs
+Version	      - 0.1.0.1
+Released By   - Chathura | Senali
+=======================================================
+
+1. Download Instructions:
+   ----------------------
+   - N/A
+
+2. New Features on this Release:
+   ----------------------------------------------------
+	1. User management
+		- Signin
+		- Signup - Normal
+				 - Social
+				 - Anonymous
+	2. Master data sync
+	3. API Layer & Datalayer
+	4. User profile
+	5. Forget password request
+
+3. Features NOT Included on this Release:
+   --------------------------------------
+   - N/A
+
+4. New Bug - Fixes On this Release:
+   --------------------------------
+   - N/A
+	
+5. Known Issues in this Release: 
+   -----------------------------
+   - User location not added
+   - Social login user profile image is not sending to server, get saved and display
+   - Phone number is not limited to 15 characters
+   - Forget password need to change from backend to support for web
+   - Rotes not restricted at this time
+	
+6. Special Notes:
+   --------------
+		Site info
+			Web: N/A
+			Backend: http://bhooztstaging.fidenz.info/
+
+		Credentials
+			Web
+				Username: admin@fidenz.com
+				Password: 1q2w3e4r
+
+			Backend
+				Username: admin@fidenz.com
+				Password: 1q2w3e4r
+	
+
+
+	
